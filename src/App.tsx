@@ -18,11 +18,10 @@ function App() {
 					<Navbar />
 					<div className="min-h-[80vh]">
 						<Routes>
-            {/* Definição das rotas do app, cada caminho renderiza um componente */}
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/categorias" element={<ListarCategorias />} />
-            <Route path="/cadcategoria" element={<FormCategoria />} />
+            <Route path="/cadastrarcategoria" element={<FormCategoria />} />
             <Route path="/editarcategoria/:id" element={<FormCategoria />} />
             <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} />
           </Routes>

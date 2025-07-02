@@ -2,9 +2,9 @@
 function Home() {
     return (
         <>
-            <div className="bg-indigo-200 flex justify-center">
+            <div className="bg-cyan-600 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
-                    <div className="flex flex-col gap-4 items-center justify-center py-4">
+                    <div className="flex flex-col gap-6 items-center justify-center py-4">
                         <h2 className='text-5xl font-bold'>
                             Seja Bem Vindo!
                         </h2>
@@ -25,7 +25,7 @@ function Home() {
                         <img
                             src="https://media.discordapp.net/attachments/1356053907838730460/1389941380595318874/home.png?ex=68667348&is=686521c8&hm=bb3a087c657cc552a96e51b8512996df6779940e43ca3e85b1e8b2565ee9d3a2&=&format=webp&quality=lossless&width=759&height=763"
                             alt="Imagem Página Home"
-                            className='w-2/3'
+                            className='w-2/2'
                         />
                     </div>
                 </div>

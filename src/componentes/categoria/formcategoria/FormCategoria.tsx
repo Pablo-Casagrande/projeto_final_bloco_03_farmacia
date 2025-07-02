@@ -86,10 +86,10 @@ function FormCategoria() {
           <input
             type="text"
             placeholder="Categoria"
-            name='tipo'
+            name='nome'
             className="bg-white border-2 border-slate-700 rounded p-2 utral-800 text-base md:text-lg"
             required
-            value={categoria.tipo}
+            value={categoria.nome}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
           />
         </div>
